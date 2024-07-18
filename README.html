@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>README.html</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+</head>
+
+<body>
+
+<h1>newReader</h1>
+
+<h2>Descrição</h2>
+
+<p>newReader é uma aplicação que converte texto de documentos <code>.docx</code> em áudio, utilizando a tecnologia de Text-to-Speech (TTS). O projeto inclui funcionalidades para substituir abreviações e termos específicos através de um "bag of words", além de uma interface web para facilitar o uso.</p>
+
+<h2>Motivo do Projeto</h2>
+
+<p>Olá colegas,</p>
+
+<p>O motivo de ter criado este projeto é porque as plataformas de leitura de texto para áudio, para quem estuda, cobram um absurdo caso seu arquivo de áudio gerado tenha mais que alguns minutos. Então nós estamos criando este projeto que teoricamente não tem limite de geração de arquivo de áudio, vai depender somente do seu limite de espaço em disco.</p>
+
+<p>Convidamos os colegas programadores (e não só) a contribuírem com nosso projeto.</p>
+
+<p>A interface Web ainda está para ser criada e uma versão Mobile está no nosso escopo.</p>
+
+<h2>Funcionalidades</h2>
+
+<ul>
+<li>Conversão de texto de documentos <code>.docx</code> (por enquanto) em áudio.</li>
+<li>Substituição de abreviações e termos através de um "bag of words".</li>
+<li>Interface web para upload de arquivos e download do áudio gerado(ainda por implementar).</li>
+<li>Destaque de texto sincronizado com a reprodução do áudio (em desenvolvimento).</li>
+</ul>
+
+<h2>Estrutura do Projeto</h2>
+
+<p>```plaintext
+newReader/
+│
+├── app<em>v2.py
+├── app</em>v3.py
+├── app<em>v4.py
+├── app</em>v5.py
+├── app<em>v6.py
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   └── styles.css
+├── project</em>files/
+│   └── (various project files)
+├── bags/
+│   └── (bag of words files)
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt</p>
+
+<h2>Instalação</h2>
+
+<ol>
+<li><p>Clone o repositório:</p>
+
+<p>```bash
+git clone https://github.com/otluiz/newReader.git
+cd newReader</p></li>
+<li><p>Crie um ambiente virtual:</p>
+
+<p>python3 -m venv virtual<em>ambient
+source virtual</em>ambient/bin/activate</p></li>
+<li><p>Instale as dependências:</p>
+
+<p>pip install -r requirements.txt</p></li>
+</ol>
+
+<h1>USO</h1>
+
+<pre><code>Execute o servidor Flask:
+python app_v6.py
+</code></pre>
+
+</body>
+</html>
